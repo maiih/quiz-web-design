@@ -1,0 +1,233 @@
+/* @font-face {
+    font-family: "Retrolight";
+    src: url("Retrolight.ttf");
+} */
+/* @import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); */
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.col-1 {
+    width: 8.33;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+body {
+    font-family: 'Goldman', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+.container {
+    width: 1140px;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+h1#quiz {
+    padding: 10px;
+    float: left;
+}
+
+h1#title {
+    text-align: center;
+    font-family: 'Concert One', cursive;
+    color: #A11D88;
+    margin-top: 230px;
+    font-size: 75px;
+}
+
+body {
+    font-size: 16px;
+    background-color: #97FF7A;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1em;
+}
+
+
+ul#alto_constraste {
+    list-style: none;
+    display: inline;
+    float: right;
+    
+}
+
+ul#alto_constraste li {
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    margin: 3px;
+    
+}
+
+li a {
+    background-color: #165e03;
+    font-weight: 400;
+    padding: 3px 5px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+input#comecar{
+    padding: 10px;
+    margin: 10px;
+    margin-top: 30px;
+    font-family: concert One;
+    font-size: 25px;
+    background-color: #29A308;
+    color: white;
+    border-radius: 10px;
+    border-color: #165e03;
+    border-style: solid;
+    border-width: 5px;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+h1#title {
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-top: 50%;
+    }
+
+    to {
+        margin-top: 20%;
+    }
+}
+
+h2#pergunta {
+    float: left;
+    margin: 50px;
+}
+
+ul#perguntas {
+    list-style: none;
+    display: list-item;
+}
+
+ul#perguntas li {
+    padding: 3px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+a#proxima {
+    padding: 10px;
+    margin: 30px;
+    margin-top: 50px;
+    font-family: concert One;
+    background-color: #29A308;
+    color: white;
+    border-radius: 10px;
+    border-color: #165e03;
+    border-style: solid;
+    border-width: 5px;
+    text-decoration: none;
+    float: inline-end;
+}
+
+a#quiz {
+    text-decoration: none;
+    color: black;
+}
+
+.alternativas {
+    width: 500px;
+    background-color: #97FF7A;
+}
+
+h1#final {
+    text-align: center;
+    font-family: 'Concert One', cursive;
+    color: black;
+    margin-top: 230px;
+    font-size: 50px;
+}
+
+p {
+    font-size: 25px;
+    margin: 10px;
+}
+
+ul#perguntas li:nth-child(2),
+ul#perguntas li:nth-child(3),
+ul#perguntas li:nth-child(4),
+ul#perguntas li:nth-child(5) {
+    background-color: white;
+}
+
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projeto integrador entre Fundamentos de Informática Web Design">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Sistema de Numeração, Binario, Octal, Decimal, Hexadecimal">
+    <meta name="author" content="Maikelen Pasquali, Luana Cristine, Matheus Valdemarca e Gislaine Carrao">
+    <title>Quiz | Pergunta 3</title>
+    <script src="https://kit.fontawesome.com/755145be3d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+    <nav class="clearfix">
+        <a href="index.html">
+            <h1 id="quiz" title="INFO B Quiz"> InfoB Quiz</h1>
+        </a>
+        <ul id="alto_constraste">
+            <li>
+                <a href="#" title="Contraste Preto" id="contraste_preto">
+                    <i class="fa fa-solid fa-moon"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#" title="Contraste Branco" id="contraste_branco">
+                    <i class="fa fa-solid fa-sun"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#" title="diminuir fonte" onclick="diminuir()">-A</a>
+            </li>
+            <li>
+                <a href="#" title="aumentar fonte" onclick="aumentar()">+A</a>
+        </ul>
+
+        </ul>
+    </nav>
+
+    <main>
+        <div class="container clearfix">
+            <h2 title='Pergunta número tres' id="pergunta"> Pergunta #3 </h2>
+        </div>
+        <div class="container clearfix alternativas">
+            <form>
+                <ul id="perguntas">
+                    <li>
+                        <label>Quanto é (1110010)² de binária para octal?</label>
+                    </li>
+                    <li>
+                        <input type='radio' name='opcao' id='opcao_um' value='false'>
+                        <label for='opcao_um' title='124'>124</label>
+                    </li>
+                    <li>
+                        <input type='radio' name='opcao' id='opcao_dois' value='false'>
+                        <label for='opcao_dois' title='40F3'>40F3</label>
+                    </li>
+                    <li>
+                        <input type='radio' name='opcao' id='opcao_tres' value='false'>
+                        <label for='opcao_tres' title='A2'>A2</label>
+                    </li>
+                    <li>
+                        <input type='radio' name='opcao' id='opcao_quatro' value='true'>
+                        <label for='opcao_quatro' title='162'>162</label>
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <div class="container clearfix">
+            <a id="proxima" title="proxima" data-proxima="pergunta_04.html">PRÓXIMA</a>
+        </div>
+
+    </main>
+</body>
+
+<script src="js/main.js"></script>
+
+</html>
